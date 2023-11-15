@@ -11,11 +11,11 @@
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
     <header>
-      <button aria-controls="mainNav" @click="menuIsOpen=!munuIsOpen">
+      <button aria-controls="mainNav" @click="menuIsOpen = ! munuIsOpen">
         menu
       </button>
       <h1>Test de menu</h1>
-      <nav id="mainNav" x-show="menuIsOpen">
+      <nav id="mainNav" x-show="menuIsOpen" x-transition>
         <ul>
           <li><a href="#">item 1</a></li>
           <li><a href="#">item 2</a></li>
