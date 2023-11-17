@@ -2,12 +2,12 @@
     width: 100%;
     height: auto;
 }
-nav>h4::before {
+nav>ul>li::before {
     content: url("../../public/icones/StreamlineEmojisAmusingFace.svg");
 }
-nav>ul>li>a::before {
+nav>ul>li>ul>li::before {
     content: url("../../public/icones/StreamlineEmojisBoar1.svg");
 }
-nav>ul>li>ul>li>a::before {
+nav>ul>ul>ul>li>::before {
     content: url("../../public/icones/StreamlineEmojisFaceVomiting.svg");
 }
