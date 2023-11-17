@@ -1,0 +1,13 @@
+.media--fullwidth {
+    width: 100%;
+    height: auto;
+}
+nav>h4::before {
+    content: url("../../public/icones/StreamlineEmojisAmusingFace.svg");
+}
+nav>ul>li>a::before {
+    content: url("../../public/icones/StreamlineEmojisBoar1.svg");
+}
+nav>ul>li>ul>li>a::before {
+    content: url("../../public/icones/StreamlineEmojisFaceVomiting.svg");
+}
