@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat 1</title>
+    <title>Les chats</title>
     <link rel="stylesheet" href="../src/css/styles.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
@@ -29,15 +29,13 @@
     </style>
   </head>
   <body>
-    <!-- https://emmet.io/ -->
-    <!-- header>h1{Test de menu} -->
     <header>
       <button aria-controls="mainNav"
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn">
         menu
       </button>
-      <h1>Chat n°1</h1>
+      <h1>Les chats</h1>
       <nav id="mainNav" x-show="menuIsOpen"
       x-transition.duration.800ms
       class="menu">
@@ -57,4 +55,4 @@
         </ul>
       </nav>
     </header>
-<img src="../../public/img/cats/Black_male_domestic_cat_05.jpg" alt="chat 1">
+    <a href="chat-1.html"><img src="../public/img/cats/Black_male_domestic_cat_05.jpg" alt=""></a>
