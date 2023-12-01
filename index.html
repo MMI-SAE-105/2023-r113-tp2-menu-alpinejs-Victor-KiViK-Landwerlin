@@ -9,6 +9,10 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
   </head>
   <body>
-    <a href="en/index.html">home in english</a>
-    <a href="fr/index.html">accueil en français</a>
+    <a href="en/index.html" onclick="document.cookie = 
+    `nf_lang=en; path=/ ; SameSite=Strict`
+    ">home in english</a>
+    <a href="fr/index.html" onclick="document.cookie = 
+    `nf_lang=fr; path=/ ; SameSite=Strict`
+    ">accueil en français</a>
   </body>
